@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://kit.fontawesome.com/167ccf590a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter city" id="city-input" />
+            <input type="submit" value="Search" />
+        </form>
+        <hr />
+        <div class="row">
+            <div class="col-6">
+                <div class="card-temp">
+                    <div class="card-body">
+                        <h1 id="city">
+                            Paris, France
+                        </h1>
+                        <p id="current-date">Thursday
+                        <p>
+                        <p id="current-time">9:13PM</p>
+                        <p class="temperature" id="temperature"></p>
+                        <p class="units">°F</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card-clear">
+                <div class="card-body">
+                    <p class="humdity">Humdity: 81%</p>
+                    <p class="wind" id="wind">Wind: 6 MPH</p>
+                    <p class="description" id="description">0% Chance of rain</p>
+                </div>
+            </div>
+        </div>
+        <h2><i class="fas fa-cloud-sun"></i></h2>
+
+        <hr />
+        <div class="row">
+            <div class="col-2">
+                <div class="card">
+                    <div class="tomorrow">
+                        <span class="symbol"> <i class="fas fa-sun"></i></span>
+                        <p class="card-text">75°F</p>
+                        <p class="card-text"><strong>Friday</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class="next-day">
+                        <span class="symbol"> <i class="fas fa-sun"></i></span>
+                        <p class="card-text">80°F</p>
+                        <p class="card-text"><strong>Saturday</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class="following-day">
+                        <span class="symbol"> <i class="fas fa-sun"></i></span>
+                        <p class="card-text">92°F</p>
+                        <p class="card-text"><strong>Sunday</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class="future">
+                        <span class="symbol"> <i class="fas fa-sun"></i></span>
+                        <p class="card-text">84°F</p>
+                        <p class="card-text"><Strong>Monday</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card">
+                    <div class="far-future">
+                        <span class="symbol"> <i class="fas fa-sun"></i></span>
+                        <p class="card-text">80°F</p>
+                        <p class="card-text"><Strong>Tuesday</strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="src/index.js"></script>
+</body>
+
+</html>

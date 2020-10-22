@@ -1,0 +1,55 @@
+h1 {
+  color: blue;
+  font-size: 100px;
+  position: relative;
+  left: 190px;
+  bottom: 50px;
+}
+.card {
+  width: 100px;
+  position: static;
+}
+.tomorrow {
+  position: static;
+}
+.container {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-temp {
+  font-size: 30px;
+  position: relative;
+  top: 40px;
+}
+.card-clear {
+  width: 200px;
+  text-align: left;
+  position: relative;
+  left: 250px;
+  bottom: 100px;
+}
+.tomorrow {
+  width: 100px;
+  text-align: center;
+}
+.next-day {
+  width: 100px;
+  text-align: center;
+}
+.following-day {
+  width: 100px;
+  text-align: center;
+}
+.future {
+  width: 100px;
+  text-align: center;
+}
+.far-future {
+  width: 100px;
+  text-align: center;
+}
+.fa-sun {
+  font-size: 40px;
+}
